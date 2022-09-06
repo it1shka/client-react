@@ -11,7 +11,7 @@ export type HistoryRecord =
 const wsurl = process.env.NODE_ENV === 'development'
   ? 'ws://localhost:8080'
   // ? 'ws://dry-ravine-74839.herokuapp.com/'
-  : 'ws://dry-ravine-74839.herokuapp.com/'
+  : 'wss://dry-ravine-74839.herokuapp.com/'
 
 export default function App() {
 
